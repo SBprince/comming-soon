@@ -1,0 +1,34 @@
+.countdown {
+  margin: auto;
+  display: table;
+  font-size: 28px;
+  font-weight: 500;
+  color: white;
+  position: absolute;
+  top: 75%;
+  left: 40%;
+  text-align: center;
+}
+.countdown > div {
+  float: left;
+  min-width: 80px;
+}
+.countdown span {
+  position: absolute;
+  top: 30px;
+ display: block;
+  font-size: 16px;
+  text-align: right;
+}
+.countdown span:before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  width: 20px;
+  height: 1px;
+  background: #fff;
+}
